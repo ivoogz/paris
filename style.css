@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: grey;
+}
+#contenedor{
+    width: 64em;
+    margin: auto;
+}
+header{
+    background: url("imagenes/header.png") no-repeat;
+}
+header h1{
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 95px 0px;
+}
+nav{
+    background: brown;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1em 3em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+main{
+    background: white;
+}
+main h2{
+    font-size: 2em;
+    color: lightgreen;
+    text-align: center;
+    padding: 1em;
+}
+figure{
+    text-align: center;
+    display: inline-block;
+    width: 25em;
+    vertical-align: top;
+}
+figcaption{
+    font-size: 0.75em;
+}
+#info{
+    width: 35em;
+    display: inline-block;
+}
+main p{
+    margin-bottom: 50px;
+}
+section{
+    background: url(imagenes/fondo.png) no-repeat center center;
+    text-align: center;
+    background-size: cover;
+    width: 64em;
+}
+section h2{
+    font-size: 2em;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+article{
+    display: inline-block;
+    width: 200px;
+    padding: 20px 50px;
+    background: white;
+    margin: 0px 5px;
+    margin-bottom: 70px;
+}
+article h3{
+    color: green;
+    margin: 10px;
+}
+footer{
+    background: lightsalmon;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+}
+nav ul li:hover{
+    background: lightsalmon;
+}
+article:hover{
+    background: coral;
+}
